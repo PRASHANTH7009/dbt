@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: source
+    +database: workspace1
+    +schema: default
+     tables:
+      - name: orders
+      - name: products
+      - name: reviews
+      - name: users
